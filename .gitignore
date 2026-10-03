@@ -1,0 +1,25 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- PyInstaller 构建产物 ----
+build/
+dist/
+*.spec
+
+# ---- 运行时数据（默认写在 %APPDATA%\AIChat，这里兜底防止误提交）----
+*.db
+*.db-journal
+config.json
+aichat.db
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
